@@ -5,7 +5,7 @@ const Button: React.FC<ButtonProps> = ({ title, styles }) => {
     <button className={`${styles} border bg-blue-500 text-white`}>
       {title}
     </button>
-  )
-}
+  );
+};
 
 export default Button;
